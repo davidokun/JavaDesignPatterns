@@ -40,3 +40,18 @@ process can create **different representations**.
 * Finer control on the build process. Allow multiple steps.
 * One build process for multiple similar objects.
 
+###2. Factory Method
+---
+##### _Intent_
+* Define an **interface** for **creating an object** but let subclasses decide which class to instantiate.
+Factory Method lets a class **defer instantiation** to **subclasses**.
+
+##### _When_
+* Class can't expect the type of object it must create.
+* Subclasses must decide what types of objects are created.
+
+##### _Benefits_
+* Delegate object creation.
+* Hooks for subclasses.
+* Base class can provide a default implementation.
+* Delegate object creation at runtime.
