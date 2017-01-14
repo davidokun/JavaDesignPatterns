@@ -73,3 +73,21 @@ Factory Method lets a class **defer instantiation** to **subclasses**.
 * Control the classes of objects to be created.
 * Exchanging product families easy.
 * Promote consistency among products.
+
+---
+### 5. Prototype
+---
+##### _Intent_
+* Specify the kinds of objects to create using a **prototypical instance**, and create new objects by
+**copying this prototype.
+
+##### _When_
+* Classes to instantiate are specific at runtime.
+* Avoid building classes hierarchies.
+* A class can have multiple instances of state.
+
+##### _Benefits_
+* Add/Remove products at runtime.
+* Reduce subclassing.
+* Configure application dynamically.
+* Different values for new objects.
