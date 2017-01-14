@@ -5,8 +5,8 @@ Examples of Design Patterns in Java.
 Patterns Included:
 
 # Creational Patterns
-
-###1. Singleton.
+---
+### 1. Singleton.
 ---
 ##### _Intent_
 * Ensure a class only has **one instance**, and provide a **global point of access to it**.
@@ -22,7 +22,8 @@ Patterns Included:
 * The ability to subclass the Singleton class.
 * Configure the number of instances you need.
 
-###2. Builder
+---
+### 2. Builder
 ---
 ##### _Intent_
 * **Separate** the **construction** of a **complex object** from its **representation** so that the **same construction**
@@ -40,7 +41,8 @@ process can create **different representations**.
 * Finer control on the build process. Allow multiple steps.
 * One build process for multiple similar objects.
 
-###2. Factory Method
+---
+### 3. Factory Method
 ---
 ##### _Intent_
 * Define an **interface** for **creating an object** but let subclasses decide which class to instantiate.
@@ -55,3 +57,19 @@ Factory Method lets a class **defer instantiation** to **subclasses**.
 * Hooks for subclasses.
 * Base class can provide a default implementation.
 * Delegate object creation at runtime.
+
+---
+### 4. Abstract Factory
+---
+##### _Intent_
+* Provide an **interface for creating families** of related of dependent objects **without specifying their concrete classes.
+
+##### _When_
+* Creation of products independent from the application.
+* Configuration of product families is required.
+* Hide product implementation -> only provide interface.
+
+##### _Benefits_
+* Control the classes of objects to be created.
+* Exchanging product families easy.
+* Promote consistency among products.
