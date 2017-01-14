@@ -1,6 +1,12 @@
 # Java Design Patterns
 
-Examples of Design Patterns in Java.
+This repository contains several examples of the most used and common design patterns used in Java. It groups these patterns in 3 main categories.
+
+* Creational.
+* Structural.
+* Behavioral.
+
+It presents a simple examples or use cases for each of these design patterns.
 
 Patterns Included:
 
@@ -62,7 +68,7 @@ Factory Method lets a class **defer instantiation** to **subclasses**.
 ### 4. Abstract Factory
 ---
 ##### _Intent_
-* Provide an **interface for creating families** of related of dependent objects **without specifying their concrete classes.
+* Provide an **interface for creating families** of related of dependent objects **without specifying their concrete classes**.
 
 ##### _When_
 * Creation of products independent from the application.
@@ -79,7 +85,7 @@ Factory Method lets a class **defer instantiation** to **subclasses**.
 ---
 ##### _Intent_
 * Specify the kinds of objects to create using a **prototypical instance**, and create new objects by
-**copying this prototype.
+**copying this prototype**.
 
 ##### _When_
 * Classes to instantiate are specific at runtime.
