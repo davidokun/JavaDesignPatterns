@@ -97,3 +97,22 @@ Factory Method lets a class **defer instantiation** to **subclasses**.
 * Reduce subclassing.
 * Configure application dynamically.
 * Different values for new objects.
+
+---
+# Structural Patterns
+---
+### 1. Facade
+---
+##### _Intent_
+* Provide a **unified interface** to a set of interfaces in a subsystem. Facade defines a **higher-level
+interface** that makes the **subsystem easier to use**.
+
+##### _When_
+* Decouple clients from subsystems.
+* Provide simple interface.
+* Subsystem layering (business, data and client services)
+
+##### _Benefits_
+* Subsystem easier to use. Client don't require specific knowledge.
+* Loose coupling.
+* Subsystem can still use directly (if necessary).
