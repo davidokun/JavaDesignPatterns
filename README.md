@@ -135,3 +135,19 @@ that could'nt otherwise because of incompatible interfaces.
 * One adapter -> Many adaptees.
 * Connect to legacy systems.
 * Adapt one interface to another.
+
+---
+### 3. Decorator
+---
+##### _Intent_
+* **Attach** additional **responsibilities** to an **object dynamically**. Decorators provide a **flexible alternative**
+to **subclassing** for extending functionality. 
+
+##### _When_
+* Add functionality to objects, without affecting other objects.
+* Functionality can be taken away in the future.
+* Extension by subclassing is difficult.
+
+##### _Benefits_
+* More flexible than inheritance.
+* Implement functionality when you need it.
