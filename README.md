@@ -151,3 +151,19 @@ to **subclassing** for extending functionality.
 ##### _Benefits_
 * More flexible than inheritance.
 * Implement functionality when you need it.
+
+---
+### 4. Bridge
+---
+##### _Intent_
+* **Decouple** and **abstraction** from its **implementation** so that the two can vary independently.
+
+##### _When_
+* Avoid binding between interface and implementation.
+* Possible subclasses for abstraction and implementation.
+* Must be possible to change implementation at runtime without affecting clients.
+
+##### _Benefits_
+* Decouple interface and implementation
+* Improve extensibility
+* Hide implementation details.
