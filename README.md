@@ -167,3 +167,21 @@ to **subclassing** for extending functionality.
 * Decouple interface and implementation
 * Improve extensibility
 * Hide implementation details.
+
+---
+### 5. Composite
+---
+##### _Intent_
+* Compose **objects into tree structures** to represent part-whole hierarchies. Composite lets clients **treat 
+individual objects** and compositions of objects **uniformly**.
+
+
+##### _When_
+* Ignore differences between compositions and individual items.
+* Represent part-whole hierarchies of objects.
+
+##### _Benefits_
+* Define class hierarchies of consistent objects.
+* Client is simplified.
+* No distinction between child composite objects.
+* Easy to add new components.
