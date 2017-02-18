@@ -175,7 +175,6 @@ to **subclassing** for extending functionality.
 * Compose **objects into tree structures** to represent part-whole hierarchies. Composite lets clients **treat 
 individual objects** and compositions of objects **uniformly**.
 
-
 ##### _When_
 * Ignore differences between compositions and individual items.
 * Represent part-whole hierarchies of objects.
@@ -185,3 +184,20 @@ individual objects** and compositions of objects **uniformly**.
 * Client is simplified.
 * No distinction between child composite objects.
 * Easy to add new components.
+
+---
+### 6. Proxy
+---
+##### _Intent_
+* Provide a **surrogate** or **placeholder** for another object to control access to it.
+
+##### _When_
+* Extra functionality is required. (Transparency, More than just a reference).
+* Remote proxy (access network separated classes).
+* Virtual proxy (create expensive objects on demand).
+* Protection proxy (access management).
+* Added functionality e.g count number of references.
+
+##### _Benefits_
+* Adds indirection.
+* Adding extra functionality.
