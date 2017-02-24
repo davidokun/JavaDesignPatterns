@@ -201,3 +201,20 @@ individual objects** and compositions of objects **uniformly**.
 ##### _Benefits_
 * Adds indirection.
 * Adding extra functionality.
+
+---
+### 7. Flyweight
+---
+##### _Intent_
+* Use Sharing to support large numbers of fine-gained objects efficiently.
+
+##### _When_
+* Large number of objects.
+* High storage costs.
+* Extrinsic state (shareable).
+* Many objects -> replaced by few objects.
+* Object identity is not necessary.
+
+##### _Benefits_
+* Reduce the total number of instances.
+* Shared intrinsic state per object.
