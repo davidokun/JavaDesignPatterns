@@ -218,3 +218,26 @@ individual objects** and compositions of objects **uniformly**.
 ##### _Benefits_
 * Reduce the total number of instances.
 * Shared intrinsic state per object.
+
+---
+# Behavioral Patterns
+---
+### 1. Command
+---
+##### _Intent_
+* Encapsulate a request as an object, thereby letting you **parametrize clients** with different
+**requests, queue** or **log requests**, and support **undoable operations**.
+
+##### _When_
+* Command as a parameter
+* Pass command like general object
+* Queue Request.
+* Save request state
+* Undo functionality
+* Support logging
+* Re-execute code in case of failure.
+
+##### _Benefits_
+* Decoupling between objects that invokes the operation and objects that know hoe to perform it.
+* Commands are Objects, All OO rules apply to them.
+* Creating new Commands is easy. Just add a new class.
