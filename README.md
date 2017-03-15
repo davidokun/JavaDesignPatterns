@@ -241,3 +241,22 @@ individual objects** and compositions of objects **uniformly**.
 * Decoupling between objects that invokes the operation and objects that know hoe to perform it.
 * Commands are Objects, All OO rules apply to them.
 * Creating new Commands is easy. Just add a new class.
+
+---
+### 2. Strategy
+---
+##### _Intent_
+* Define a **family of algorithms**, encapsulate each one, and make them interchangeable. Strategy lets the
+**algorithm vary independently from clients** that use it.
+
+##### _When_
+* Classes only change in behaviour.
+* Different variants of an algorithm.
+* Algorithms that use complex data that clients should't be aware of.
+
+##### _Benefits_
+* Algorithm families use inheritance for common parts.
+* Avoid conditional statements using this pattern.
+* Clients can choose the required behaviour.
+* Encapsulate an algorithm.
+* Change algorithm at runtime.
