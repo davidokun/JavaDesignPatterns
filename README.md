@@ -260,3 +260,22 @@ individual objects** and compositions of objects **uniformly**.
 * Clients can choose the required behaviour.
 * Encapsulate an algorithm.
 * Change algorithm at runtime.
+
+---
+### 3. Visitor
+---
+##### _Intent_
+* Represent an **operation** to be **performed** on the **elements** of **an object structure**. Visitor
+lets you **define a new operation** without changing the classes of the elements on which it operates.
+
+##### _When_
+* Visit complex object structure (Inheritance).
+* Perform operations of concrete classes.
+* Avoid pollution of concrete classes with many different operations. Visitor groups this functionality.
+* Ability to easily define new operations without changing concrete classes.
+
+##### _Benefits_
+* Adding new operations is easy.
+* Visitor separates operations that don't belong together.
+* Accumulate state. Visitors can maintain state across the hierarchy.
+* Centralize logic.
