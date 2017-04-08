@@ -279,3 +279,21 @@ lets you **define a new operation** without changing the classes of the elements
 * Visitor separates operations that don't belong together.
 * Accumulate state. Visitors can maintain state across the hierarchy.
 * Centralize logic.
+
+---
+### 4. Observer
+---
+##### _Intent_
+* Define a **one-to-many dependency** between objects so that when one object changes state, **all** its **dependents**
+are **notified** and updated automatically.
+
+##### _When_
+* Change one object -> changes others.
+* No idea how many objects need to be changed.
+* Object change notification. With preserving loose coupling.
+* One object may notify another without knowing them directly.
+
+##### _Benefits_
+* Loose coupling between observers and subjects.
+* Supporting a broadcast model.
+* Observe state in other objects.
