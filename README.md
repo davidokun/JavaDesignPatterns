@@ -297,3 +297,20 @@ are **notified** and updated automatically.
 * Loose coupling between observers and subjects.
 * Supporting a broadcast model.
 * Observe state in other objects.
+
+---
+### 5. Memento
+---
+##### _Intent_
+* Without violating encapsulation, **capture and externalize an object's internal state** so that the object can be
+**restored** to this state later.
+
+##### _When_
+* Save a snapshot of an objects state.
+* Direct interface to object state would violate encapsulation.
+
+##### _Benefits_
+* Preserve encapsulation.
+* Simplifies originator.
+* Accesses state but preserve encapsulation.
+* Save snapshot of object data.
