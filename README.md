@@ -314,3 +314,23 @@ are **notified** and updated automatically.
 * Simplifies originator.
 * Accesses state but preserve encapsulation.
 * Save snapshot of object data.
+
+---
+### 6. Mediator
+---
+##### _Intent_
+* Define an object that **encapsulates** how a **set of objects interact**. Mediator **promotes loose coupling** by
+keeping objects from referring to each other explicitly, and lets you vary their interaction independently.
+
+##### _When_
+* Objects have complex communication, but it's well defined.
+* Hard to identify how the communication actually works.
+* Objects re-use is difficult.
+* Centralize behaviour between classes.
+
+##### _Benefits_
+* Centralize behaviour.
+* Decoupling of colleagues.
+* Changes many-to-many interaction to one-to-many interaction.
+* Object collaboration is abstracted.
+* Centralize control.
