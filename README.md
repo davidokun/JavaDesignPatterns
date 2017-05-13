@@ -334,3 +334,21 @@ keeping objects from referring to each other explicitly, and lets you vary their
 * Changes many-to-many interaction to one-to-many interaction.
 * Object collaboration is abstracted.
 * Centralize control.
+
+---
+### 7. Chain of Responsibility
+---
+##### _Intent_
+* **Avoid coupling** the **sender** of a **request** to its **receiver** by giving **more than one object** a
+chance to **handle the request**. Chain the receiving objects and pass the request along the chain until an object 
+handles it.
+
+##### _When_
+* Multiple objects need to handle a request.
+* Is'nt clear upfront who will handle it.
+* Who can handle the request should be dynamic.
+
+##### _Benefits_
+* Loose coupling between requester and receiver.
+* Objects can spread responsibility in handling requests.
+* Handles requests dynamically.
