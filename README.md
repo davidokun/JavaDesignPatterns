@@ -352,3 +352,21 @@ handles it.
 * Loose coupling between requester and receiver.
 * Objects can spread responsibility in handling requests.
 * Handles requests dynamically.
+
+---
+### 8. State
+---
+##### _Intent_
+* Allow an object **to alter its behaviour** when its internal **state change**. The object will appear to change
+its class.
+
+##### _When_
+* Object behaviour depends on object state.
+* Avoid complex if-else structures.
+* When state changes, simply change the state object.
+* Implementation is done in the state object.
+
+##### _Benefits_
+* All state behaviour is delegated to the state implementation.
+* Arguments can be past from context to state.
+* Only context is available for clients to see.
