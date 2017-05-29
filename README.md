@@ -370,3 +370,20 @@ its class.
 * All state behaviour is delegated to the state implementation.
 * Arguments can be past from context to state.
 * Only context is available for clients to see.
+
+---
+### 9. Template
+---
+##### _Intent_
+* Define the **skeleton of an algorithm** in an operation, deferring some steps to subclasses. Template Method **lets
+subclasses redefine certain steps** of an algorithm without changing the algorithm's structure.
+
+##### _When_
+* Implement an algorithm once. Subclasses can provide different implementation.
+* Avoid code duplication.
+* Define how a class should be extended.Implementing hooks.
+
+##### _Benefits_
+* Ultimate code re-use
+* Provide hooks.
+* The abstract base class generally does't implement a hook -> forces clients to have an implementation.
