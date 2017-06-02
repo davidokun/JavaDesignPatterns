@@ -387,3 +387,22 @@ subclasses redefine certain steps** of an algorithm without changing the algorit
 * Ultimate code re-use
 * Provide hooks.
 * The abstract base class generally does't implement a hook -> forces clients to have an implementation.
+
+---
+# Additional Patterns
+---
+### 1. Inversion of Control (IoC)
+---
+##### _Intent_
+* Allow a system to **release control** of **object creation** by allowing other components to manage creation
+of objects and its **dependencies**.
+
+##### _When_
+* Don't know in advance which objects need to be created.
+* Need a flexible run-time environment that can be configured.
+* Creation of objects is difficult e.g in an enterprise context.
+* Need loose coupling.
+
+##### _Benefits_
+* A fully configurable runtime system.
+* Increased loose coupling. 
