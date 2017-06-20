@@ -405,4 +405,18 @@ of objects and its **dependencies**.
 
 ##### _Benefits_
 * A fully configurable runtime system.
-* Increased loose coupling. 
+* Increased loose coupling.
+
+---
+### 2. Data Transfer Object - DTO
+---
+##### _Intent_
+* **Bundle** the **required data** that must be **transferred** from one process to another.
+
+##### _When_
+* Reduce process interaction overhead. Network transfer reduction.
+* Avoid transferring extra unwanted data, that may be be the result of interface design.
+
+##### _Benefits_
+* When correctly applied it gives you a performance boost.
+* You can limit the need to know data.
