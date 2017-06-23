@@ -2,16 +2,16 @@ package additional.dto;
 
 public class DomainObject {
 
-    private String aProperty;
+    private String property;
 
     private String confidential;
 
-    public String getaProperty() {
-        return aProperty;
+    public String getProperty() {
+        return property;
     }
 
-    public void setaProperty(String aProperty) {
-        this.aProperty = aProperty;
+    public void setProperty(String property) {
+        this.property = property;
     }
 
     public String getConfidential() {

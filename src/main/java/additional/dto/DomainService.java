@@ -9,7 +9,7 @@ public class DomainService {
 
         DomainObjectDTO domainObjectDTO = new DomainObjectDTO();
 
-        domainObjectDTO.setaProperty(domainObject.getaProperty());
+        domainObjectDTO.setProperty(domainObject.getProperty());
 
         return domainObjectDTO;
     }
