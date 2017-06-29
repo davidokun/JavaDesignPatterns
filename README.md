@@ -29,6 +29,10 @@ Patterns Included:
 * The ability to subclass the Singleton class.
 * Configure the number of instances you need.
 
+##### _Structure_
+
+![Alt text](images/creational/singleton.png?raw=true)
+
 ---
 ### 2. Builder
 ---
