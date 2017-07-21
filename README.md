@@ -52,6 +52,8 @@ process can create **different representations**.
 * Finer control on the build process. Allow multiple steps.
 * One build process for multiple similar objects.
 
+![Alt text](images/creational/builder.png?raw=true)
+
 ---
 ### 3. Factory Method
 ---
